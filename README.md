@@ -1,3 +1,7 @@
+# About this project:
+
+This is an online code editor made in ReactJS for HTML, CSS, Javascript similar to [CodePen](https://codepen.io/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

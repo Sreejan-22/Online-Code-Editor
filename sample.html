@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iframe</title>
+  </head>
+  <!-- what is the use of iframe tag? 
+    to embed another document within current html document 
+    it is used to embed 3rd party content in our website like ads, youtube videos, social media posts, rss feed,
+    Google Maps, etc.
+
+    benefits-
+    no need to update 3rd party content, it gets done automatically
+    added security benefits due to separation of content b/w our and 3rd party content
+    
+    still there are risks of malicious users phising on our data, etc.
+    so make sure to use reputable sources
+
+-->
+  <body>
+    <h1>Intro to Iframe</h1>
+    <!-- Code between the opening and closing iframe tags get displayed when the resource (video, img, etc) is 
+not visible to the user-->
+    <h3>
+      Note that some embedded resources may not be visible as they might not be
+      allowed by the owner to prevent any malicious activity(e.g anyone can
+      embed amazon website in his/her own website and pretend to show the real
+      amazon website and do stuff)
+    </h3>
+
+    <div style="display: flex; flex-direction: column; justify-content: center">
+      <!-- image -->
+      <iframe
+        src="https://static01.nyt.com/images/2017/04/09/travel/09VANCOUVER/09VANCOUVER-superJumbo.jpg"
+        height="400px"
+        width="400px"
+        frameborder="0"
+        >Sorry!! The resource is not visible</iframe
+      >
+      <br />
+      <br />
+      <!-- website -->
+      <iframe src="https://reactjs.org" frameborder="0"></iframe>
+      <br />
+      <br />
+      <!-- youtube video -->
+      <iframe
+        src="https://youtube.com/embed/eulnSXkhE7I"
+        frameborder="0"
+      ></iframe>
+      <br />
+      <br />
+      <!-- tweet  -->
+      <!-- this piece of code is available in the embed option of the tweet itself -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          DeepFuckingValue said he likes the stock on national TV, and GameStop
+          went up 400%. <br /><br />What happens when he loves a stock?
+        </p>
+        &mdash; John W. Rich (Fake Tech Exec) (@Cokedupoptions)
+        <a
+          href="https://twitter.com/Cokedupoptions/status/1369327368758730752?ref_src=twsrc%5Etfw"
+          >March 9, 2021</a
+        >
+      </blockquote>
+    </div>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>
