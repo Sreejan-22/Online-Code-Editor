@@ -5,6 +5,7 @@ const PREFIX = "code-editor-";
 // there might be many such variables
 
 export default function useLocalStorage(key, initialValue) {
+  // key identifies the editor - html, css or js
   const prefixedKey = PREFIX + key;
   const [value, setValue] = useState(() => {
     const jsonValue = localStorage.getItem(prefixedKey);
