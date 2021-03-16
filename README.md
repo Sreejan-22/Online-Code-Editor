@@ -3,7 +3,7 @@
 # About this project:
 
 This is an online code editor for HTML, CSS, Javascript similar to [CodePen](https://codepen.io/).\
-It is built using React.
+It is built using React. It can be viewed here: https://sreejan-22.github.io/Online-Code-Editor/
 
 # Getting Started with Create React App
 
